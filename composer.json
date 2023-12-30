@@ -1,5 +1,5 @@
 {
-    "name": "raselrana/laravel-package",
+    "name": "raselrana/laravel-package-unique-slug",
     "description": "A unique slug will be generated",
     "type": "composer-plugin",
     "license": "MIT",
