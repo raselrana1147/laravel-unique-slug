@@ -1,0 +1,31 @@
+{
+    "name": "rasel/laravel-package",
+    "description": "A unique slug will be generated",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rasel\\LaravelPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raselrana1147",
+            "email": "raselrana1147@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rasel\\LaravelPackage\\PackageServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Rasel\\LaravelPackage\\UniqueSlug"
+            }
+        }
+    }
+}
