@@ -1,7 +1,7 @@
 "# laravel-unique-slug" 
  ## Instalation
  ```sh 
- composer require rasel/laravel-package 
+ composer require raselrana/laravel-package 
 ```
  ## Use From Controller
  #### Import first slug
