@@ -14,5 +14,5 @@ $slug=UniqueSlug::generate(App\Models\User::class,'rasel','name');
  php artisan vendor:publish rasel/laravel-unique-slug
  ```
 ## Contribution
-You are open to pull request
+You are open to pull request and can contribute
 
