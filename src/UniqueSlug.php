@@ -22,13 +22,14 @@ class UniqueSlug
 
         $separator = empty($separator) ? config('laravel-unique-slug.separator') : $separator;
         $id=0;
-        $slug=null;
+        $slug=str_replace(' ',$separator,$value);
+        $slug=preg_replace('/[^A-Za-z0-9\-]/','',$slug);
 
         $checker=$model::where("$field",'like', $value . '%')->first();
         if (empty($checker)) {
-            $slug=$value.$separator.$id;
+            $slug=$slug.$separator.$id;
         }else{
-            $slug=$value.$separator.$checker->id;
+            $slug=$slug.$separator.$checker->id;
         }
         $slug=strtolower($slug);
         return $slug;
