@@ -1,10 +1,10 @@
 {
-    "name": "raselrana/laravel-unique-slug",
+    "name": "raselrana/laravel-package-unique-slug",
     "description": "A unique slug will be generated",
     "keywords": [
-        "laravel_unique_slug",
+        "laravel-package-unique-slug",
         "laravel",
-        "laravel-unique-slug"
+        "laravel-package-unique-slug"
     ],
     "homepage": "https://github.com/raselrana1147/laravel-unique-slug",
     "license": "MIT",

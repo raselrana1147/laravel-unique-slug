@@ -1,7 +1,7 @@
 "# laravel-unique-slug" 
  ## Instalation
  ```sh 
- composer require raselrana/laravel-unique-slug
+ composer require raselrana/laravel-package-unique-slug
 ```
  ## Use From Controller
  #### Import first slug
@@ -20,7 +20,7 @@ $slug=UniqueSlug::generate(App\Models\User::class,'rasel','name');
 
     'separator'=>'-',
     'max_count'=>100
-];
+]
 ```
 ## Contribution
 You are open to pull request and can contribute
