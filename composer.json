@@ -1,5 +1,5 @@
 {
-    "name": "raselrana/laravel-package-unique-slug",
+    "name": "raselrana/laravel-unique-slug",
     "description": "A unique slug will be generated",
     "keywords": [
         "laravel_unique_slug",
