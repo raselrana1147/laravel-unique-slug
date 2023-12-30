@@ -1,7 +1,12 @@
 {
     "name": "raselrana/laravel-package-unique-slug",
     "description": "A unique slug will be generated",
-    "type": "composer-plugin",
+    "keywords": [
+        "laravel_unique_slug",
+        "laravel",
+        "laravel-package-unique-slug"
+    ],
+    "homepage": "https://github.com/raselrana1147/laravel-unique-slug",
     "license": "MIT",
     "autoload": {
         "psr-4": {
